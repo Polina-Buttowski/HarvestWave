@@ -1,0 +1,117 @@
+@keyframes pumpkin-shake{
+    0% {
+        transform: rotate(-15deg); 
+    }
+
+    100% {
+        transform: rotate(15deg); 
+    }
+}
+
+@keyframes fig-shake{
+    0% {
+        transform: rotate(15deg); 
+    }
+
+    100% {
+        transform: rotate(-15deg); 
+    }    
+}
+
+@keyframes changeTimer {
+    0%, 5% { content: '23:59:59'; }
+    5%, 10% { content: '23:59:58'; }
+    10%, 15% { content: '23:59:57'; }
+    15%, 20% { content: '23:59:56'; }
+    20%, 25% { content: '23:59:55'; }
+    25%, 30% { content: '23:59:54'; }
+    30%, 35% { content: '23:59:53'; }
+    35%, 40% { content: '23:59:52'; }
+    40%, 45% { content: '23:59:51'; }
+    45%, 50% { content: '23:59:50'; }
+    50%, 55% { content: '23:59:49'; }
+    55%, 60% { content: '23:59:48'; }
+    60%, 65% { content: '23:59:47'; }
+    65%, 70% { content: '23:59:46'; }
+    70%, 75% { content: '23:59:45'; }
+    75%, 80% { content: '23:59:44'; }
+    80%, 85% { content: '23:59:43'; }
+    85%, 90% { content: '23:59:42'; }
+    90%, 95% { content: '23:59:41'; }
+    95%, 100% { content: '23:59:40'; }
+}
+
+.falling-item:nth-child(1) {  animation-delay: 0s; left: 10%; }
+.falling-item:nth-child(2) {  animation-delay: 1s; left: 30%; }
+.falling-item:nth-child(3) {  animation-delay: 3s; left: 50%; }
+.falling-item:nth-child(4) {  animation-delay: 1,5s; left: 70%; }
+.falling-item:nth-child(5) { animation-delay: 3s; left: 90%; }
+.falling-item:nth-child(6) {  animation-delay: 3,5s; left: 20%; }
+.falling-item:nth-child(7) {  animation-delay: 4,9s; left: 40%; }
+.falling-item:nth-child(8) {  animation-delay: 5.7s; left: 60%; }
+.falling-item:nth-child(9) {  animation-delay: 6s; left: 80%; }
+.falling-item:nth-child(10) {  animation-delay: 7s; left: 15%; }
+
+@keyframes fall {
+    0% {
+        top: -90px;
+        transform: rotate(0deg);
+        
+    }
+    100% {
+        top: 393px;
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes scroll-up {
+    0% {
+        transform: translateY(-750px);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(700px);
+        opacity: 1;
+    }
+}
+@keyframes scroll-up2 {
+    100% {
+        transform: translateY(700px);
+        opacity: 1;
+    }
+}
+
+.falling-ticket:nth-child(1){animation-delay: 0s;left: 10%;}
+.falling-ticket:nth-child(2){animation-delay: 1s;left: 10%;}
+.falling-ticket:nth-child(3){animation-delay: 2s;left: 30%;}
+.falling-ticket:nth-child(4){animation-delay: 3s;left: 57%;}
+.falling-ticket:nth-child(5){animation-delay: 5s;left: 63%;}
+.falling-ticket:nth-child(6){animation-delay: 4s;left: 10%;}
+.falling-ticket:nth-child(7){animation-delay: 6s;left: 10%;}
+.falling-ticket:nth-child(8){animation-delay: 7s;left: 10%;}
+.falling-ticket:nth-child(9){animation-delay: 8s;left: 10%;}
+.falling-ticket:nth-child(10){animation-delay: 9s;left: 10%;}
+.falling-ticket:nth-child(11){animation-delay: 10s;left: 10%;}
+
+@keyframes fall-tickets{
+    0% {
+        top: -500px; 
+        left: 100px;
+        opacity: 1;
+        transform: rotate(0deg);
+    }
+
+    50%{
+        transform: rotate(-15deg);
+    }
+
+    100% {
+        top: 700px;
+        opacity: 1; 
+        transform: rotate(0deg);
+    }
+}
+
+.falling-ticket:hover{
+    animation-play-state: paused;
+}

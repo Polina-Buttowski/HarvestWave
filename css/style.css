@@ -1,0 +1,240 @@
+@import url(reset.css);
+@import url(fonts.css);
+@import url(animations.css);
+
+*{
+    font-family: 'doctor punk';
+}
+body{
+    background-color: #342B22;
+    max-width: 1440px;
+}
+
+#first-screen{
+    height: 900px;
+    width: 100%;
+    color: #CEA972;
+    font-size: 170px;
+    h2{
+        display: flex;
+        justify-content: center;
+        font-size: 170px;
+    }
+}
+
+.pumpkin{
+    position: relative;
+    overflow: hidden;
+    animation: pumpkin-shake 3s infinite alternate-reverse;
+}
+
+.fig{
+    position: relative;
+    overflow: hidden;
+    animation: fig-shake 3s infinite alternate-reverse;
+}
+
+.Hurry-to-buy{
+    display: flex;
+    justify-content: center;
+    background-color: #524C34;
+    p{
+    color: #CEA972;
+    font-size: 128px;
+    font-family: 'rookiepunk';
+    }
+}
+
+.Squares{
+    display: flex;
+    flex-direction: row;
+}
+
+.Squares2{
+    display: flex;
+    flex-direction: column;
+}
+
+.Square-b{
+    background-color: #342B22;
+    width: 120px;
+    height: 100px;
+}
+
+.Square-g{
+    background-color: #7A3B2C;
+    width: fit-content;
+    width: 120px;
+    height: 100px;
+}
+
+.Orange-pumpkin{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: #7A3B2C;
+}
+
+#secondScreen{
+    width: 100%;
+    color: #CEA972;
+    font-size: 170px;
+}
+.SongsText{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.songstextright{
+    width: 314px;
+    height: 737px;
+    background-color: #CEA972;
+    overflow: hidden;
+}
+.songstextleft{
+    width: 314px;
+    height: 737px;
+    background-color: #CEA972;
+}
+
+.Time{
+    font-size: 96px;
+    font-family: 'rookiepunk';
+    position: relative;
+}
+.Time::after {
+    content: '24:00:00';
+    animation: changeTimer 20s steps(20) infinite;
+}
+
+.timetext{
+    font-size: 35px;
+    font-family: 'rookiepunk';
+}
+
+.Timer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #524C34;
+    width: 406px;
+    position: relative;
+    overflow: hidden;
+}
+
+.typingText{
+    background-color: #342B22;
+    width: 406px;
+    height: 345px;
+    p{
+    padding: 35px;
+    font-size: 35px;
+    font-family: 'rookiepunk';
+    }
+}
+
+.rowsecondscreen{
+    display: flex;
+    flex-direction: row;
+}
+
+.fallingpump{
+    background-color: #7A3B2C;
+    width: 811px;
+    height: 393px;
+    position: relative;
+    overflow: hidden;
+}
+
+.secondscreencenter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.falling-item {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: -100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: fall 5s infinite linear;
+}
+
+.down-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+
+.Scroll-Up{
+    position: relative;
+    overflow: hidden;
+    animation: scroll-up 15s linear infinite;
+    opacity: 0;
+}
+
+.Scroll-Up-next{
+    position: relative;
+    overflow: hidden;
+    animation: scroll-up2 15s linear infinite;
+    opacity: 0;
+}
+
+.Scroll-Up-next2{
+    position: relative;
+    overflow: hidden;
+    animation: scroll-up 15s linear infinite;
+    animation-delay: 21s;
+}
+
+.song_text{
+    color: #7A3B2C;
+    font-size: 50px;
+    font-family: 'rookiepunk'
+}
+
+.singer-text{
+    color: #7A3B2C;
+    font-size: 30px;
+    font-family: 'rookiepunk'
+}
+
+.third-screen{
+
+}
+
+.tickets{
+    display: flex;
+    flex-direction: column;
+    height: 850px;
+    width: 1000px;
+    position: relative;
+    overflow: hidden;
+}
+
+.tickets6{
+    display: flex;
+    flex-direction: row;    
+}
+
+.falling-ticket{
+    position: relative;
+    overflow: hidden;
+    animation: fall-tickets 6s linear infinite;
+    opacity: 0;
+}
+
+.poster-tickets{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+
