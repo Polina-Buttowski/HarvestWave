@@ -25,13 +25,13 @@ body{
 .pumpkin{
     position: relative;
     overflow: hidden;
-    animation: pumpkin-shake 3s infinite alternate-reverse;
+    animation: pumpkin-shake 2s infinite alternate-reverse;
 }
 
 .fig{
     position: relative;
     overflow: hidden;
-    animation: fig-shake 3s infinite alternate-reverse;
+    animation: fig-shake 2s infinite alternate-reverse;
 }
 
 .Hurry-to-buy{
@@ -95,6 +95,7 @@ body{
     width: 314px;
     height: 737px;
     background-color: #CEA972;
+    overflow: hidden;
 }
 
 .Time{
@@ -155,16 +156,14 @@ body{
 
 .falling-item {
     position: absolute;
-    width: 50px;
-    height: 50px;
-    top: -100px;
+    top: -200px;
     display: flex;
     align-items: center;
     justify-content: center;
     animation: fall 5s infinite linear;
 }
 
-.down-text{
+.scrolling-text{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -180,10 +179,10 @@ body{
     opacity: 0;
 }
 
-.Scroll-Up-next{
+.scroll-down{
     position: relative;
     overflow: hidden;
-    animation: scroll-up2 15s linear infinite;
+    animation: scroll-down 15s linear infinite;
     opacity: 0;
 }
 

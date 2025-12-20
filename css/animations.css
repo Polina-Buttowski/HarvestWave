@@ -63,20 +63,23 @@
         transform: rotate(360deg);
     }
 }
-
-@keyframes scroll-up {
-    0% {
-        transform: translateY(-750px);
+@keyframes scroll-down{
+    0%{
+        transform: translateY(-50%);
         opacity: 1;
     }
     100% {
-        transform: translateY(700px);
+        transform: translateY(0);
         opacity: 1;
     }
 }
-@keyframes scroll-up2 {
+@keyframes scroll-up {
+    0% {
+        transform: translateY(0);
+        opacity: 1;
+    }
     100% {
-        transform: translateY(700px);
+        transform: translateY(-50%);
         opacity: 1;
     }
 }
