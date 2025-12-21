@@ -186,21 +186,14 @@ body{
     position: relative;
     overflow: hidden;
     animation: scroll-up 15s linear infinite;
-    opacity: 0;
+    opacity: 1;
 }
 
 .scroll-down{
     position: relative;
     overflow: hidden;
     animation: scroll-down 15s linear infinite;
-    opacity: 0;
-}
-
-.Scroll-Up-next2{
-    position: relative;
-    overflow: hidden;
-    animation: scroll-up 15s linear infinite;
-    animation-delay: 21s;
+    opacity: 1;
 }
 
 .song_text{
@@ -257,6 +250,14 @@ body{
 }
 
 @media(max-width:1200px){
+.DisplayOnly{
+    display: none;
+}
+
+.MobileOnly{
+    display: inherit;
+} 
+
     .Squares{
     width: fit-content;
     width: 100%;
@@ -299,9 +300,19 @@ body{
     flex-direction:column ;
     justify-content: space-around;
 }
+.scrolling-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    min-width: 200px;
+}
 .scroll-down{
     display: flex;
+    white-space: nowrap;
     flex-direction: row;
+    gap: 20px;
 }
 .Scroll-Up{
     display: flex;
@@ -312,17 +323,5 @@ body{
     flex-direction: column;
 }
 
-
-
-@keyframes scroll-up {
-    0% {
-        transform: translateX(0%);
-        opacity: 1;
-    }
-    100% {
-        transform: translateX(10%);
-        opacity: 1;
-    }
-}
 }
 
