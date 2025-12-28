@@ -7,5 +7,5 @@
 @font-face {
   font-family: "RookiePunk";
   src:
-    url("/font/RookiePunk.ttf") format("truetype")
+    url("/font/RookiePunk.otf") format("opentype")
 }
