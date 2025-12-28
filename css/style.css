@@ -9,7 +9,6 @@
 }
 body{
     background-color: #342B22;
-    max-width: 1440px;
 }
 
 #first-screen{
@@ -21,13 +20,13 @@ body{
 .pumpkin{
     position: relative;
     overflow: hidden;
-    animation: pumpkin-shake 2s infinite alternate-reverse;
+    animation: pumpkin-shake 1s infinite alternate-reverse;
 }
 
 .fig{
     position: relative;
     overflow: hidden;
-    animation: fig-shake 2s infinite alternate-reverse;
+    animation: fig-shake 1s infinite alternate-reverse;
 }
 
 .main-text{
