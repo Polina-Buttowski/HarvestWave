@@ -119,6 +119,7 @@ body{
 }
 
 .timetext{
+    width: 100%;
     font-size: clamp(30px, 8vw, 89px);
     display: flex;
     align-items: center;
@@ -129,6 +130,7 @@ body{
 }
 
 .Timer{
+    text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
