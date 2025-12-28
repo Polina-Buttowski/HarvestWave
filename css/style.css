@@ -46,7 +46,7 @@ body{
     justify-content: center;
     background-color: #524C34;
     p{
-    font-size: clamp(40px, 8vw, 128px);
+    font-size: clamp(35px, 8vw, 128px);
     color: #CEA972;
     font-family: 'rookiepunk';
     }
@@ -109,7 +109,7 @@ body{
 }
 
 .Time{
-    font-size: clamp(48px, 8vw, 96px);
+    font-size: clamp(40px, 8vw, 96px);
     font-family: 'rookiepunk';
     position: relative;
 }
@@ -119,6 +119,7 @@ body{
 }
 
 .timetext{
+    font-size: clamp(30px, 8vw, 89px);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -133,18 +134,18 @@ body{
     justify-content: space-evenly;
     align-items: center;
     background-color: #524C34;
-    width: 406px;
+    width: 100%;
     position: relative;
     overflow: hidden;
 }
 
 .typingText{
     background-color: #342B22;
-    width: 406px;
+    width: 100%;
     height: 345px;
     p{
     padding: 35px;
-    font-size: clamp(30px, 3vw, 35px);
+    font-size: clamp(15px, 3vw, 35px);
     font-family: 'rookiepunk';
     }
 }
