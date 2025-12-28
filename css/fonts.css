@@ -1,10 +1,12 @@
 @font-face {
     font-family: 'doctorpunk';
-    src: url(/font/doctorpunk.ttf) format('truetype');
+    src: url('../font/doctorpunk.ttf') format('truetype');
+    font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
   font-family: "RookiePunk";
   src:
-    url("/font/RookiePunk.otf") format("opentype")
+    url("../font/RookiePunk.otf") format("opentype")
 }
