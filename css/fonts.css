@@ -1,7 +1,8 @@
 @font-face {
-  font-family: "doctorpunk";
-  src:
-    url("/font/doctorpunk.otf") format("opentype")
+    font-family: 'doctorpunk';
+    src: url(/font/doctorpunk.ttf) format('truetype');
+    font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
