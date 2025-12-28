@@ -9,6 +9,7 @@
 }
 body{
     background-color: #342B22;
+
 }
 
 #first-screen{
@@ -149,7 +150,9 @@ body{
 }
 
 .rowsecondscreen{
+    justify-content: center;
     display: flex;
+    width: 100%;
     flex-direction: row;
 }
 
