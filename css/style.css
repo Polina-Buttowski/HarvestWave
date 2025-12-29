@@ -41,7 +41,7 @@ body{
     }
 }
 
-.Hurry-to-buy{
+.hurry-to-buy{
     display: flex;
     justify-content: center;
     background-color: #524C34;
@@ -52,7 +52,7 @@ body{
     }
 }
 
-.Squares{
+.squares{
     width: 100%;
     box-sizing: border-box;
     display: flex;
@@ -60,7 +60,7 @@ body{
     overflow-x: hidden;
 }
 
-.Squares2{
+.squares2{
     display: flex;
     flex-direction: column;
 }
@@ -97,25 +97,25 @@ body{
     display: flex;
     justify-content: space-between;
 }
-.songstextright{
+.songs-text-right{
     width: 314px;
     height: 737px;
     background-color: #CEA972;
     overflow: hidden;
 }
-.songstextleft{
+.songs-text-left{
     width: 314px;
     height: 737px;
     background-color: #CEA972;
     overflow: hidden;
 }
 
-.Time{
+.time{
     font-size: clamp(40px, 8vw, 96px);
     font-family: 'rookiepunk';
     position: relative;
 }
-.Time::after {
+.time::after {
     content: '24:00:00';
     animation: changeTimer 20s steps(20) infinite;
 }
@@ -131,7 +131,7 @@ body{
     font-family: 'rookiepunk';
 }
 
-.Timer{
+.timer{
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -269,7 +269,7 @@ body{
     display: inherit;
 } 
 
-    .Squares{
+    .squares{
     width: fit-content;
     width: 100%;
     }
