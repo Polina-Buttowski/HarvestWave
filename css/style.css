@@ -65,14 +65,14 @@ body{
     flex-direction: column;
 }
 
-.Square-b{
+.square-b{
     animation: square-color-change-b 2s infinite steps(1, end);
     background-color: #342B22;
     width: 120px;
     height: 100px;
 }
 
-.Square-g{
+.square-g{
     animation: square-color-change-g 2s infinite steps(1, end);
     background-color: #7A3B2C;
     width: fit-content;
