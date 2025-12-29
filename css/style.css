@@ -279,13 +279,13 @@ body{
         font-size: clamp(60px, 20vw, 140px);
     }
 }
-   .songstextleft{
+   .songs-text-left{
     width: 100%;
     height: 203px;
     background-color: #CEA972;
     overflow: hidden;
 } 
-   .songstextright{
+   .songs-text-right{
     width: 100%;
     height: 203px;
     background-color: #CEA972;
@@ -325,7 +325,7 @@ body{
     flex-direction: column;
 }
 /*все для анимации вправо*/
-.songstextleft.MobileOnly {
+.songs-text-left.MobileOnly {
     width: 100%;
     height: 150px;
     background-color: #CEA972;
@@ -333,7 +333,7 @@ body{
     position: relative; 
 }
 
-.songstextleft.MobileOnly .scroll-right {
+.songs-text-left.MobileOnly .scroll-right {
     display: flex;
     position: absolute;
     top: 0;
@@ -345,7 +345,7 @@ body{
     will-change: transform;
 }
 
-.songstextleft.MobileOnly .scrolling-text {
+.songs-text-left.MobileOnly .scrolling-text {
     flex-shrink: 0;
     min-width: 200px;
     height: 100%;
@@ -361,7 +361,7 @@ body{
 }
 
 
-.songstextright.MobileOnly {
+.songs-text-right.MobileOnly {
     width: 100%;
     height: 150px;
     background-color: #CEA972;
@@ -369,7 +369,7 @@ body{
     position: relative; 
 }
 
-.songstextright.MobileOnly .scroll-up {
+.songs-text-right.MobileOnly .scroll-up {
     display: flex;
     position: absolute;
     top: 0;
@@ -381,7 +381,7 @@ body{
     will-change: transform;
 }
 
-.songstextright.MobileOnly .scrolling-text {
+.songs-text-right.MobileOnly .scrolling-text {
     flex-shrink: 0;
     min-width: 200px;
     height: 100%;
